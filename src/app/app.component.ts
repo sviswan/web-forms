@@ -8,5 +8,5 @@ import { User } from './user';
 })
 export class AppComponent {
     topics=['Angular', 'JQuery', 'React'];
-    userModel = new User('Rob','rob@test.com', 3333333, '', 'morning', true); // can be used to edit data
+    userModel = new User('','rob@test.com', 3333333333, '', 'morning', true); // can be used to edit data
 }
